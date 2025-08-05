@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('Anh biết em sẽ đồng ý mà(^_^)', function() {
+        modal('Anh biết ngay là em sẽ đồng ý mà~(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -9,61 +9,62 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('Người ngay không nói lòng vòng！', A);
+        modal('Người quang minh chính đại không nói lời mờ ám!', A);
     });
 });
 
 function A() {
-    modal('Anh yêu em！', B);
+    modal('Anh yêu em!', B);
 }
 
 function B() {
-    modal('Anh biết em chỉ chờ mỗi câu này thôi', C);
+    modal('Anh biết em đang đợi câu này của anh', C);
 }
 
 function C() {
-    modal('Đùng~', D);
+    modal('Em đừng từ chối anh mà~', D);
 }
 
 function D() {
-    modal('拒绝我，不存在的', E);
+    modal('Từ chối anh à, không có chuyện đó đâu', E);
 }
 
 function E() {
-    modal('这辈子都不可能让你离开我的!!!', F);
+    modal('Cả đời này cũng không thể để em rời xa anh đâu!!!', F);
 }
 
 function F() {
-    modal('跟我走吧宝宝~', G);
+    modal('Đi theo anh nhé em~', G);
 }
 
 function G() {
-    modal('房产证上写你的名字', H);
+    modal('Sổ đỏ ghi tên em', H);
 }
 
 function H() {
-    modal('我会做饭', I);
+    modal('Anh biết nấu cơm', I);
 }
  function I() {
-    modal('我会买很多东西给你', J)
+    modal('Anh sẽ mua rất nhiều đồ cho em', J)
 }
 function I() {
-    modal('会好好疼你', J)
+    modal('Sẽ yêu thương em thật nhiều', J)
 }
 function I() {
-    modal('会哄你睡觉', J)
+    modal('Sẽ dỗ em ngủ', J)
 }
 function I() {
-    modal('会唱歌给你听', J)
+    modal('Sẽ hát cho em nghe', J)
 }
 function I() {
-    modal('爱你。么么哒！', J)
+    modal('Yêu em. Moa moa!', J)
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
-        fireworks();
-    });
+    /* Đã chú thích (comment) lại đoạn này theo yêu cầu */
+    // modal('Được, chúng ta đến cục dân chính đăng ký thôi', function() {
+    //     fireworks();
+    // });
 }
 
 function fireworks() {
